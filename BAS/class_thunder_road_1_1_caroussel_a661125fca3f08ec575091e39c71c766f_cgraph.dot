@@ -1,0 +1,15 @@
+digraph "ThunderRoad.Caroussel.NextSlot"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Caroussel.NextSlot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Nexts the slot."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Caroussel.SelectSlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_caroussel.html#a1f78096db523385b09f25ed7300f38e7",tooltip="Selects the slot."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.Caroussel.Moving\lEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_caroussel.html#afce6d30bb494847faae07b354c84a2db",tooltip="Delegate MovingEvent"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.Caroussel.Wait\lAnimCoroutine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_caroussel.html#a5337341f618a7157345cea5ac6c0ada3",tooltip="Waits the anim coroutine."];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

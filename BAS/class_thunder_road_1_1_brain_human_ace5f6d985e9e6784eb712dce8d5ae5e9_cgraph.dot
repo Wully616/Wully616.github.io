@@ -1,0 +1,26 @@
+digraph "ThunderRoad.BrainHuman.LookAt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.BrainHuman.LookAt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Looks at."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.ActionParry.\lGetCreatureTarget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action_parry.html#a139a8352c9aeeaa4b38a4b6e3075bbc6",tooltip="Gets the creature target."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.ActionParry.\lGetLookAt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action_parry.html#a336be1d0d41d44b0af30507e08eb0d02",tooltip="Gets the look at."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.ActionParry.New",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action_parry.html#a69cafca7cd30b63676bab83a53c1940d",tooltip="News the specified creature target."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.ActionParry.\lActionParry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action_parry.html#ab3eb68928c2a66101c6fe885959b9ffc",tooltip="Initializes a new instance of the ActionParry class."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.Creature.Try\lAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_creature.html#ab050907b4eded79275fefdf36e696378",tooltip="Tries the action."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.Action.Begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action.html#a4cd7b5811229176ad31386496eeffc95",tooltip="Begins this instance."];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.Action.CanRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action.html#a0a1bddb357a58971b530aed200b7a50f",tooltip="Determines whether this instance can run."];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.Action.GetTargets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action.html#aad311ab9fd6fbd0319fe602a266c800a",tooltip="Gets the targets."];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ThunderRoad.Action.Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action.html#a8966f3e62d2704f707c76dd43aa6a030",tooltip="Initializes the specified creature."];
+}

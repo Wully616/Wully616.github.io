@@ -1,0 +1,10 @@
+digraph "ThunderRoad.UMAPreset.GetRecipeStringWithApparels"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.UMAPreset.Get\lRecipeStringWithApparels",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Gets the recipe string with apparels."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.UMAPreset.Get\lDCSPackRecipe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_m_a_preset.html#af81601a12e02ab5b7db6fb38af9ca0c2",tooltip="Gets the DCS pack recipe."];
+}

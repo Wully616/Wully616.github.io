@@ -1,0 +1,14 @@
+digraph "ThunderRoad.EffectModuleParticle.Spawn"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.EffectModule\lParticle.Spawn",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Spawns the specified effect data."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.EffectModule\lParticle.Configure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_module_particle.html#adafe0214af7b88870621d39689c7faad",tooltip="Configures the specified effect particle."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.EffectParticle.\lDespawn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_particle.html#a4e9380bd3cfbfc27bf995d7593854e99",tooltip="Despawns this instance."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.EffectModule\lParticle.Despawn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_module_particle.html#a40ffc52aeb85b637ecd26767056ccb79",tooltip="Despawns the specified effect particle."];
+}

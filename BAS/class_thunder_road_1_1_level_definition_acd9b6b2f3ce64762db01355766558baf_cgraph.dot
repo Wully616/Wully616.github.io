@@ -1,0 +1,34 @@
+digraph "ThunderRoad.LevelDefinition.Awake"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.LevelDefinition.\lAwake",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Awakes this instance."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.DataManager.\lGetCharacters",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_data_manager.html#a4fe30ef9954d81384f37d87d41d5e233",tooltip="Gets the characters."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.DataManager.\lGetLocalFiles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_data_manager.html#acb07937cbb7f4be9f336406deba4cd11",tooltip="Gets the local files."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.DataManager.\lGetLocalSavePath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_data_manager.html#a30115c560573758abb0bc64ea9c24f17",tooltip="Gets the local save path."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.DataManager.\lGetLocalMyGamesPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_data_manager.html#afcd74081b8ab8ed1db498162a4cdab56",tooltip="Gets the local my games path."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.CharacterData.\lRefresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_character_data.html#a0cd96c580f64ff14da0bc6b7f6f9c075",tooltip="Refreshes this instance."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.CharacterData.\lGetCreatureID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_character_data.html#a59a5017394c29e81b6337c39f6573908",tooltip="Gets the creature identifier."];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.ContainerData.\lContent.Instantiate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_container_data_1_1_content.html#a3129ed1891bc89dd1ec1002887f31d1b",tooltip="Instantiates this instance."];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.UMAPreset.On\lCatalogRefresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_m_a_preset.html#a71dbd62f7dab9ba819a2bb2c1050dee1",tooltip="Called when [catalog refresh]."];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ThunderRoad.CharacterData.\lResetToDefault",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_character_data.html#aebf82ffd319f85ffe1cb5845e1dd9fec",tooltip="Resets to default."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ThunderRoad.UMAPreset.Clone",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_m_a_preset.html#a7c848abb747d4e0dc361485947904957",tooltip="Clones this instance."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ThunderRoad.UMAPreset.Get\lAvailableWardRobe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_m_a_preset.html#ab22ab3e1d99809ed7cab7f7489434e16",tooltip="Gets the available ward robe."];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ThunderRoad.UMAPreset.Get\lDnaValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_m_a_preset.html#acedceb3c36f3843136079ed694e35fae",tooltip="Gets the dna value."];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,14 @@
+digraph "ThunderRoad.Ragdoll.ResetParts"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Ragdoll.Reset\lParts",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Resets the parts."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.RagdollPart.\lReset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll_part.html#aa974ff0b5097589cfa7b8f1cdc03431b",tooltip="Resets this instance."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.RagdollPart.\lSetCharJoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll_part.html#aad7a8f071065f2a5ff0b980336982725",tooltip="Sets the character joint."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.RagdollPart.\lSetRigidBody",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll_part.html#ac0437a05fd81bfdfc51e87766c58e726",tooltip="Sets the rigid body."];
+}

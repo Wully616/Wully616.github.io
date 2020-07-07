@@ -1,0 +1,20 @@
+digraph "ThunderRoad.Locomotion.Update"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Locomotion.Update",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Updates this instance."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Health.OnPlayer\lLocomotionGroundFall",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_health.html#a229fc666fb5ce1dce9d55cda7a97023f",tooltip="Called when [player locomotion ground fall]."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.Health.Damage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_health.html#a18b5ee236846af81d62aeed4fc78e760",tooltip="Damages the specified collision structure."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.Health.Kill",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_health.html#a2c2a538f37e7523fbd5b75b67afa1985",tooltip="Kills this instance."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.EffectInstance.Play",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#a2e1b93aec710be57d9a9014149f0c5d5",tooltip="Plays the specified step custom hash identifier."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.EffectInstance.\lSetIntensity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#ab4b317e4c00e6212a31d9af69fca4d16",tooltip="Sets the intensity."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.EffectData.Spawn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_data.html#a63841dec71870c38eba2dd432ff8878e",tooltip="Spawns the specified parent."];
+}

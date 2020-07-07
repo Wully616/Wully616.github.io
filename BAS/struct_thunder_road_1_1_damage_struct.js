@@ -1,0 +1,36 @@
+var struct_thunder_road_1_1_damage_struct =
+[
+    [ "Penetration", "struct_thunder_road_1_1_damage_struct.html#a34ff7e0dbe1ee4d4205af501c2ece01c", [
+      [ "None", "struct_thunder_road_1_1_damage_struct.html#a34ff7e0dbe1ee4d4205af501c2ece01ca6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Pressure", "struct_thunder_road_1_1_damage_struct.html#a34ff7e0dbe1ee4d4205af501c2ece01caa78578c428179b490a0461e76ba5f319", null ],
+      [ "Hit", "struct_thunder_road_1_1_damage_struct.html#a34ff7e0dbe1ee4d4205af501c2ece01caebfe5e1791db03c4cd6ab95801e0977d", null ]
+    ] ],
+    [ "DamageStruct", "struct_thunder_road_1_1_damage_struct.html#a0e209c7492d7e461a283e0f8e12b667b", null ],
+    [ "Reset", "struct_thunder_road_1_1_damage_struct.html#a187a874ad222f6753b0eddc8eb93f4c9", null ],
+    [ "active", "struct_thunder_road_1_1_damage_struct.html#ab0dbb756217b2fc3da8d3b4a05cff198", null ],
+    [ "baseDamage", "struct_thunder_road_1_1_damage_struct.html#af50d0acc634397373806f6b88ec9dbae", null ],
+    [ "damage", "struct_thunder_road_1_1_damage_struct.html#ac436ac5c55a6218ef85f46ade536646c", null ],
+    [ "damager", "struct_thunder_road_1_1_damage_struct.html#a0b7bef40c0b4a238ba7748e6d7d5cc97", null ],
+    [ "damageType", "struct_thunder_road_1_1_damage_struct.html#aef2eb455492e72bce6cad15cb5cf6871", null ],
+    [ "hitItem", "struct_thunder_road_1_1_damage_struct.html#a3791e1acb98cb83fc87f7febfaab3288", null ],
+    [ "hitRagdollPart", "struct_thunder_road_1_1_damage_struct.html#aa66ed4866117c2da165a252a79ec3cf8", null ],
+    [ "knockOutDuration", "struct_thunder_road_1_1_damage_struct.html#adc3c74d53df97deceb4e696ce9acecad", null ],
+    [ "knockOutLevel", "struct_thunder_road_1_1_damage_struct.html#a4e7a61ae81ac8017eafd56553dce8a58", null ],
+    [ "lastDepth", "struct_thunder_road_1_1_damage_struct.html#acdc20fe02918c2e4193d06f4fa27daa5", null ],
+    [ "lastPenetrationDamageTime", "struct_thunder_road_1_1_damage_struct.html#afd5366bf66c59ed4b53fbf07e4fe89d1", null ],
+    [ "lastPenetrationEffectDistance", "struct_thunder_road_1_1_damage_struct.html#a09222aab774b8e928f16b5efadb3ed93", null ],
+    [ "lastRumbleDepth", "struct_thunder_road_1_1_damage_struct.html#a8cbbec54d1ca57db5ba409be0c1b30f5", null ],
+    [ "materialDamageModifier", "struct_thunder_road_1_1_damage_struct.html#a068d1d6554cceb2295e94f70c3329f21", null ],
+    [ "materialEffectData", "struct_thunder_road_1_1_damage_struct.html#a6992fe8cfd7ea276e19963aa3d84650a", null ],
+    [ "penetration", "struct_thunder_road_1_1_damage_struct.html#a67a0673b979f8b4a4b74885701518f14", null ],
+    [ "penetrationCutAxisPos", "struct_thunder_road_1_1_damage_struct.html#a4bb61e48414d3ea25e6e1543ac0a6d61", null ],
+    [ "penetrationDamageDone", "struct_thunder_road_1_1_damage_struct.html#a4d420bb634be07ccdd6ed7d6522911ba", null ],
+    [ "penetrationDepth", "struct_thunder_road_1_1_damage_struct.html#ab4522c24d6863c748e626cf87c5f4634", null ],
+    [ "penetrationJoint", "struct_thunder_road_1_1_damage_struct.html#adac29dc92d96a88c5a8bfcd2f332487b", null ],
+    [ "penetrationPoint", "struct_thunder_road_1_1_damage_struct.html#a2cc23bc97b88d8559f6972810d1596db", null ],
+    [ "penetrationRb", "struct_thunder_road_1_1_damage_struct.html#a2903bc0bbc8f114478368e822640757d", null ],
+    [ "penetrationTempRb", "struct_thunder_road_1_1_damage_struct.html#a64741b167ad0679f4f2aaadbbccfce58", null ],
+    [ "ragdollDamageModifier", "struct_thunder_road_1_1_damage_struct.html#aea2b89975d91829ebd26a37c89c2c529", null ],
+    [ "recoil", "struct_thunder_road_1_1_damage_struct.html#a11470ad3c2edc799b3e250c83dac6f43", null ],
+    [ "stickMassModified", "struct_thunder_road_1_1_damage_struct.html#a15284dc96af15d89f30c2a8bf64d64bb", null ]
+];

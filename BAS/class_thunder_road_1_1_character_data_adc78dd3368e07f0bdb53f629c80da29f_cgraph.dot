@@ -1,0 +1,21 @@
+digraph "ThunderRoad.CharacterData.CharacterData"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.CharacterData.\lCharacterData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initializes a new instance of the CharacterData class."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.UMAPreset.Clone",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_m_a_preset.html#a7c848abb747d4e0dc361485947904957",tooltip="Clones this instance."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.UMAPreset.Get\lAvailableWardRobe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_m_a_preset.html#ab22ab3e1d99809ed7cab7f7489434e16",tooltip="Gets the available ward robe."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.UMAPreset.Get\lDnaValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_m_a_preset.html#acedceb3c36f3843136079ed694e35fae",tooltip="Gets the dna value."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.CharacterData.\lResetToDefault",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_character_data.html#aebf82ffd319f85ffe1cb5845e1dd9fec",tooltip="Resets to default."];
+  Node5 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.CharacterData.\lGetCreatureID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_character_data.html#a59a5017394c29e81b6337c39f6573908",tooltip="Gets the creature identifier."];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.ContainerData.\lContent.Instantiate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_container_data_1_1_content.html#a3129ed1891bc89dd1ec1002887f31d1b",tooltip="Instantiates this instance."];
+}

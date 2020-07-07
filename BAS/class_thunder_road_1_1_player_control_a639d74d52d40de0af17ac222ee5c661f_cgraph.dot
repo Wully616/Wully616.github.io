@@ -1,0 +1,56 @@
+digraph "ThunderRoad.PlayerControl.Kick"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.PlayerControl.Kick",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Kicks the specified active."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.PlayerFoot.Kick",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_foot.html#a89fad528472c1c683f8cfc7d7c0e8c2f",tooltip="Kicks the specified active."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.PlayerControl.\lGetFootTracking",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_control.html#a67a914e31108598b664f7daa88734850",tooltip="Gets the foot tracking."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.InputBase.Get\lFootTracking",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_input_base.html#a46bdc6bd1fe0a4fc72923af06c74afd3",tooltip="Gets the foot tracking."];
+  Node2 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Ragdoll.Refresh\lPartsLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a719a7e98fd6b50c533792238826b5fa8",tooltip="Refreshes the parts layer."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.RagdollPart.\lSetLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll_part.html#af57d495ffe5341a0e37961f833a615fc",tooltip="Sets the layer."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.GameManager.\lGetLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_game_manager.html#a4b7e3521ff92f30374062207b6e30352",tooltip="Gets the layer."];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.Body.ResetGrabbed\lObjectCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body.html#ab1d0dcd5e0e4c172380d9e7f2ebf701d",tooltip="Resets the grabbed object collision."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.Item.Refresh\lCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#a6a4c857535cb043d56ddf774e1f7f390",tooltip="Refreshes the collision."];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ThunderRoad.Ragdoll.GetPart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a63bb50459ca0652451c1aef3fc8155cb",tooltip="Gets the part."];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ThunderRoad.Item.IgnoreObject\lCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#a7ae74ee7db5dbfa1a0f7f4366eee910f",tooltip="Ignores the object collision."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ThunderRoad.Item.ResetObject\lCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#a0cb2eaf67cb34ac7856b2c584549902a",tooltip="Resets the object collision."];
+  Node9 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ThunderRoad.Item.IgnoreRagdoll\lCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#ab840281a41308d6826a91926b94e7e67",tooltip="Ignores the ragdoll collision."];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ThunderRoad.Item.ResetRagdoll\lCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#a4a7ec512ce5de13942770c4ee678fb40",tooltip="Resets the ragdoll collision."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ThunderRoad.Ragdoll.Ignore\lCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a3429b1cdefa48b676118205483ad9406",tooltip="Ignores the collision."];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ThunderRoad.Ragdoll.HasPartType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a8bf62a566d0502f63a0933c47d747d78",tooltip="Determines whether [has part type] [the specified part types]."];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ThunderRoad.Item.SetCollider\lAndMeshLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#acc7132d9720dbfbb66910f7042316a71",tooltip="Sets the collider and mesh layer."];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ThunderRoad.Item.SetCollider\lLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#a8ebe3e954b0663e522565567ebe35eb7",tooltip="Sets the collider layer."];
+  Node18 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ThunderRoad.Item.SetMesh\lLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#af6a9c6fa9e58edfb44799205107c283f",tooltip="Sets the mesh layer."];
+  Node2 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ThunderRoad.Body.SetGrabbed\lObjectLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body.html#a4e3df06d2acaf1da93b258828ffb06e8",tooltip="Sets the grabbed object layer."];
+  Node20 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ThunderRoad.Ragdoll.SetParts\lLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a1669048ed1acf39705ff1596155f4148",tooltip="Sets the parts layer."];
+  Node21 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

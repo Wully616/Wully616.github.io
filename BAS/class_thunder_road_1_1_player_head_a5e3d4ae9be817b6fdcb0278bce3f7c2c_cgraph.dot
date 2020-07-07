@@ -1,0 +1,10 @@
+digraph "ThunderRoad.PlayerHead.OnValidate"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.PlayerHead.On\lValidate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when [validate]."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.PlayerHead.Refresh\lTrackingType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_head.html#ae147511d94554e4b44bd94d34cfc6afb",tooltip="Refreshes the type of the tracking."];
+}

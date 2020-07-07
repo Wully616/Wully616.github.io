@@ -1,0 +1,22 @@
+digraph "ThunderRoad.LevelLogicCharacterSelection.CalibrateCharacter"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.LevelLogicCharacter\lSelection.CalibrateCharacter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Calibrates the character."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.UMACharacter.\lCalibrateHeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_m_a_character.html#aa9b0082fed719dcbad743ae8caf3db7c",tooltip="Calibrates the height."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.UMACharacter.\lSetHeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_m_a_character.html#a67f38dec88f86311bf57b5ba57c2d076",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.UMACharacter.\lSetDnaValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_m_a_character.html#a1064281175a06db56c82477355f1c3e0",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Caroussel.Get\lCharacterData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_caroussel.html#a322117e93159590af9a414e5ae0e7e64",tooltip="Gets the character data."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.Caroussel.Get\lCharacterPreview",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_caroussel.html#ad7c15c150e58867fee8aca664214a580",tooltip="Gets the character preview."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.Player.GetMorphology",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player.html#a7cd41ed13dd12a24408ff0a518288400",tooltip="Gets the morphology."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.Morphology.Estimate\lProportion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_morphology.html#a5faec3dd7e8fad5387f68b9954808f76",tooltip="Estimates the proportion."];
+}

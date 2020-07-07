@@ -1,0 +1,42 @@
+digraph "ThunderRoad.SpellMergeGravity.Merge"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.SpellMergeGravity.\lMerge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Merges the specified active."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.SpellMergeGravity.\lBubbleCoroutine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_merge_gravity.html#a510f21164683a4123638787ac8fac810",tooltip="Bubbles the coroutine."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.EffectInstance.End",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#a2145ac61404303ad31bfda14880e77e5",tooltip="Ends the specified loop only."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.EffectInstance.Play",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#a2e1b93aec710be57d9a9014149f0c5d5",tooltip="Plays the specified step custom hash identifier."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.EffectInstance.\lSetIntensity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#ab4b317e4c00e6212a31d9af69fca4d16",tooltip="Sets the intensity."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.Trigger.SetRadius",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_trigger.html#a0b341592322145579ec85ceac384c5b4",tooltip="Sets the radius."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.EffectData.Spawn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_data.html#a63841dec71870c38eba2dd432ff8878e",tooltip="Spawns the specified parent."];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.SpellMergeGravity.\lStartCapture",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_merge_gravity.html#a53c1a28ec852dc02fcda0f1507c3b8cd",tooltip="Starts the capture."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.Trigger.CallBack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_trigger.html#ad4056233d1e8b1bbac4078ee6407e954",tooltip="Delegate CallBack"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ThunderRoad.GameManager.\lGetLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_game_manager.html#a4b7e3521ff92f30374062207b6e30352",tooltip="Gets the layer."];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ThunderRoad.Trigger.SetActive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_trigger.html#acf6a7e82fb1cbb9c1f1e9f2e998b487c",tooltip="Sets the active."];
+  Node8 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ThunderRoad.Trigger.SetCallback",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_trigger.html#a9fecffeea4fdd295f9307c6ee954feb9",tooltip="Sets the callback."];
+  Node8 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ThunderRoad.Trigger.SetLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_trigger.html#a602e78dfdf9f40072c80f850a923f34d",tooltip="Sets the layer."];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ThunderRoad.SpellMergeGravity.\lStopCapture",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_merge_gravity.html#a53db13f527edd7840bbf95df20561abf",tooltip="Stops the capture."];
+  Node14 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ThunderRoad.PlayerControl.\lGetHand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_control.html#a35f9d9f52e8ffc5ad4a3b3a8a18541b9",tooltip="Gets the hand."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

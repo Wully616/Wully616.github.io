@@ -1,0 +1,16 @@
+digraph "ThunderRoad.EffectModuleAudio.Spawn"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.EffectModule\lAudio.Spawn",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Spawns the specified effect data."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.EffectModule\lAudio.Configure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_module_audio.html#a8085443405c9487de05bda4d9df160a3",tooltip="Configures the specified effect audio."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.GameManager.\lGetAudioMixerGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_game_manager.html#a77a132fd536a364cb8a256629800be5b",tooltip="Gets the audio mixer group."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.EffectAudio.\lDespawn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_audio.html#a4568d28d6037c57ddb653c6941e1ca5c",tooltip="Despawns this instance."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.EffectModule\lAudio.Despawn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_module_audio.html#a208be23096b060fc9401348a1b0de268",tooltip="Despawns the specified effect."];
+}

@@ -1,0 +1,19 @@
+digraph "ThunderRoad.RagdollData.Part.Damager"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ThunderRoad.RagdollData.\lPart.Damager",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Class Damager."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" damagerData" ,fontname="Helvetica"];
+  Node2 [label="ThunderRoad.DamagerData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_damager_data.html",tooltip="Class DamagerData. Implements the ThunderRoad.CatalogData"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CatalogData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_catalog_data.html",tooltip="Class CatalogData."];
+  Node2 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" penetrationSize\naddForceTargetType\naddForceState\nknockout" ,fontname="Helvetica"];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" materialDamageData\nbadAngleMaterialDamageData" ,fontname="Helvetica"];
+  Node4 [label="ThunderRoad.MaterialDamageData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_material_damage_data.html",tooltip="Class MaterialDamageData. Implements the ThunderRoad.CatalogData"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" defaultModifier" ,fontname="Helvetica"];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" materialEffectData\nbadAngleMaterialEffectData" ,fontname="Helvetica"];
+  Node5 [label="ThunderRoad.MaterialEffectData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_material_effect_data.html",tooltip="Class MaterialEffectData. Implements the ThunderRoad.CatalogData"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

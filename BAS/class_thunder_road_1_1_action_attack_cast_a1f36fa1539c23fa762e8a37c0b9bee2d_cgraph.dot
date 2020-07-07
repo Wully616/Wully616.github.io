@@ -1,0 +1,10 @@
+digraph "ThunderRoad.ActionAttackCast.IsSame"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.ActionAttack\lCast.IsSame",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Determines whether the specified other action is same."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.ActionAttack\lCast.ActionAttackCast",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action_attack_cast.html#afb03bdc4d26c00c8468fe494e9b7da25",tooltip="Initializes a new instance of the ActionAttackCast class."];
+}

@@ -1,0 +1,15 @@
+digraph "ThunderRoad.BodyHand.OnValidate"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.BodyHand.OnValidate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when [validate]."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.BodyHand.Create\lDefaultGrip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body_hand.html#a2b44d35e87f5f51b57f937ac1ed65808",tooltip="Creates the default grip."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.BodyHand.Get\lLocalRotation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body_hand.html#a6c9b30f266324cb6595069d708cf836a",tooltip="Gets the local rotation."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.IconManager.\lSetIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_icon_manager.html#a7c768a3eaba901dbaa89665532e4e28c",tooltip="Sets the icon."];
+  Node4 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

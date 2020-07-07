@@ -1,0 +1,25 @@
+digraph "ThunderRoad.ConsoleCommands.ToggleBookMenu"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.ConsoleCommands.\lToggleBookMenu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Toggles the book menu."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.PlayerControl.\lToogleMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_control.html#ac6d48f73a73388fa59419936a33ade34",tooltip="Toogles the menu."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.PointerInput\lModule.SetUICameraToAllCanvas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_pointer_input_module.html#a80679abe09a69692e33fe869bb746d0f",tooltip="Sets the UI camera to all canvas."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.MenuBook.Show\lToPlayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_book.html#aa4ae3cf651672fb02ac4e469ccab670d",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.MenuBook.Get\lPlayerSpawnPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_book.html#a7e1bbd1ab63d655117f649ce59cd1101",tooltip=" "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.MenuBook.HideBook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_book.html#a5575e0f6c089b91a02a784b4b6a7c100",tooltip=" "];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.MenuModule.OnShow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_module.html#a7f682303b5f3988c7a1165eec3148cc3",tooltip="Called when [show]."];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.MenuBook.Refresh\lNavBar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_book.html#ad9f5133215e7cdabeb4c99fccd591df8",tooltip="Refreshes the nav bar."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.MenuModule.Get\lState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_module.html#a30562c216f66556ab73ad148048e3e54",tooltip="Gets the state."];
+}

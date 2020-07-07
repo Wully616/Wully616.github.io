@@ -1,0 +1,12 @@
+digraph "ThunderRoad.Ragdoll.OnPostIKUpdateEvent"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Ragdoll.OnPost\lIKUpdateEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when [post ik update event]."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Ragdoll.Update\lRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#ae8f6da374622676cc9d0972dc39cfca1",tooltip="Updates the renderer."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.RagdollPart.\lUpdateTargetPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll_part.html#aabe8c8d48e10c7e89449bd1deb6bd524",tooltip="Updates the target position."];
+}

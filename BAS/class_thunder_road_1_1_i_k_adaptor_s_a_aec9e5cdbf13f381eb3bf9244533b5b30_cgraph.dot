@@ -1,0 +1,14 @@
+digraph "ThunderRoad.IKAdaptorSA.Setup"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.IKAdaptorSA.\lSetup",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Setups this instance."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.IKAdaptor.Post\lIKUpdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_i_k_adaptor.html#a060412d54babe20a217e29827a8aebeb",tooltip="Posts the ik update."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.IKAdaptorSA.\lPreIKUpdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_i_k_adaptor_s_a.html#a0f7694566b41ce0feabefa7611871503",tooltip="Pres the ik update."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.IKAdaptorSA.\lSetState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_i_k_adaptor_s_a.html#accbf45da54943e0a03de9b36005a7810",tooltip="Sets the state."];
+}

@@ -1,0 +1,10 @@
+digraph "ThunderRoad.Spectator.OnPlayerSpawned"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Spectator.On\lPlayerSpawned",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when [player spawned]."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Spectator.Set\lDisplayCameraToAllCanvas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spectator.html#a15edba42b9c8a6815c3e9014801f379d",tooltip="Sets the display camera to all canvas."];
+}

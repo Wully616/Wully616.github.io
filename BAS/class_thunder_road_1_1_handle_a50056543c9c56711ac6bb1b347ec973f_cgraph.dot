@@ -1,0 +1,12 @@
+digraph "ThunderRoad.Handle.SetJointToTwoHanded"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Handle.SetJoint\lToTwoHanded",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Sets the joint to two handed."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Handle.SetJoint\lConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle.html#af877a8b9023994e0b6f3b42365749685",tooltip="Sets the joint configuration."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.Morphology.Get\lArmCenterToFingerTipLenght",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_morphology.html#a4dc479d6cf56495d577fc193e2c99cae",tooltip="Gets the arm center to finger tip lenght."];
+}

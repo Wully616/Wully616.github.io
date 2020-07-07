@@ -1,0 +1,12 @@
+digraph "ThunderRoad.IKAdaptorSA.SetHipsAnchor"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.IKAdaptorSA.\lSetHipsAnchor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Sets the hips anchor."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.IKAdaptorSA.\lSetHipsState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_i_k_adaptor_s_a.html#a351122fdd6e10beba41730913b168d8f",tooltip="Sets the state of the hips."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.IKAdaptorSA.\lSetHipsWeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_i_k_adaptor_s_a.html#ada7a813d4d5af5cc2bcd6b1adef97b47",tooltip="Sets the hips weight."];
+}

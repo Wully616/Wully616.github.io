@@ -1,0 +1,51 @@
+digraph "ThunderRoad.PlayerFoot.OnDeviceConnected"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.PlayerFoot.On\lDeviceConnected",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when [device connected]."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.PlayerFoot.Check\lTracking",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_foot.html#a099b6a8a65862977a345b99ab5fce785",tooltip="Checks the tracking."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.PlayerControl.\lGetFootTracking",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_control.html#a67a914e31108598b664f7daa88734850",tooltip="Gets the foot tracking."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.InputBase.Get\lFootTracking",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_input_base.html#a46bdc6bd1fe0a4fc72923af06c74afd3",tooltip="Gets the foot tracking."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.PlayerFoot.Refresh\lFootState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_foot.html#a08d34858dd08eb3ed42cdd5834c69705",tooltip="Refreshes the state of the foot."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.PlayerFoot.DisableFoot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_foot.html#a758144133bc852f96332cbf8c382421f",tooltip="Disables the foot."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.PlayerLink.Detach",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_link.html#a9c042aafdd703b5aec58248977b7fde4",tooltip="Detaches this instance."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.PlayerLink.Refresh\lIkAnchor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_link.html#ace8e9c4b3db1a9140f273fb5d97a8ac8",tooltip="Refreshes the ik anchor."];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.Item.ResetRagdoll\lCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#a4a7ec512ce5de13942770c4ee678fb40",tooltip="Resets the ragdoll collision."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ThunderRoad.Ragdoll.Ignore\lCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a3429b1cdefa48b676118205483ad9406",tooltip="Ignores the collision."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ThunderRoad.Ragdoll.HasPartType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a8bf62a566d0502f63a0933c47d747d78",tooltip="Determines whether [has part type] [the specified part types]."];
+  Node6 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ThunderRoad.CreatureClimber.\lRefresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_creature_climber.html#acb6fa14a35e349f56aa2707e70d2a672",tooltip="Refreshes this instance."];
+  Node6 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ThunderRoad.IKAdaptor.Set\lFootAnchor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_i_k_adaptor.html#aadab9adfc7e887faaf7cec99ea198676",tooltip="Sets the foot anchor."];
+  Node6 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ThunderRoad.IKAdaptor.Set\lFootWeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_i_k_adaptor.html#ada4d229bcaf0dd448d716a45fdf3e153",tooltip="Sets the foot weight."];
+  Node5 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ThunderRoad.PlayerFoot.EnableFoot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_foot.html#a66fb3d053c3f4e507f1f9c790c04cb95",tooltip="Enables the foot."];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ThunderRoad.PlayerLink.Attach",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_link.html#ac6a20d051ceb71cd61d2a98f33033ac9",tooltip="Attaches the specified rigidbody."];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ThunderRoad.Item.IgnoreRagdoll\lCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#ab840281a41308d6826a91926b94e7e67",tooltip="Ignores the ragdoll collision."];
+  Node17 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ThunderRoad.PlayerLink.Refresh\lJointConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_link.html#acf8e9650b0884014e3eba937f64fbce1",tooltip="Refreshes the joint configuration."];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ThunderRoad.PlayerLink.Set\lJointConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_link.html#a3129bec6ebda69cd631dd61430701b53",tooltip="Sets the joint configuration."];
+  Node15 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ThunderRoad.CreatureClimber.\lGetFoot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_creature_climber.html#a1513e68a439bdd497e556a7a81bee35b",tooltip="Gets the foot."];
+  Node15 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,18 @@
+digraph "ThunderRoad.MaterialData.TryGetMaterials"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.MaterialData.\lTryGetMaterials",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Tries the get materials."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.RagdollPart.\lGetClosestMaterialColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll_part.html#a0e4d35f6dfa13cc18ac6b019c64e36e0",tooltip="Gets the color of the closest material."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.Ragdoll.GetClosest\lMaterialColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a6a59e2cfead494330bafcc249448e4a5",tooltip="Gets the color of the closest material."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.Ragdoll.GetBody\lMaterialIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a6fcde8c30682ff9d82e5784625757873",tooltip="Gets the index of the body material."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Ragdoll.GetHead\lMaterialIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a73609bd9247b469491653247563051f1",tooltip="Gets the index of the head material."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.MaterialData.\lGetMaterial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_material_data.html#add215da97a102f8a50e395c4a3794b1b",tooltip="Gets the material."];
+}

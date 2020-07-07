@@ -1,0 +1,44 @@
+digraph "ThunderRoad.RagdollData.Part.Handle"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.RagdollData.\lPart.Handle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Class Handle."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" interactableRagdoll" ,fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Interactable\lRagdoll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_interactable_ragdoll.html",tooltip="Class InteractableRagdoll. Implements the ThunderRoad.InteractableHandle"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="InteractableHandle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_interactable_handle.html",tooltip="Class InteractableHandle. Implements the ThunderRoad.InteractableData"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="InteractableData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_interactable_data.html",tooltip="Class InteractableData. Implements the ThunderRoad.CatalogData"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="CatalogData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_catalog_data.html",tooltip="Class CatalogData."];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" highlighterPrefab" ,fontname="Helvetica"];
+  Node6 [label="ThunderRoad.Highlighter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_highlighter.html",tooltip="Class Highlighter. Implements the UnityEngine.MonoBehaviour"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MonoBehaviour",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" faceCam" ,fontname="Helvetica"];
+  Node8 [label="ThunderRoad.FaceCam",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_face_cam.html",tooltip="Class FaceCam. Implements the UnityEngine.MonoBehaviour"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" titleText\ndesignationText" ,fontname="Helvetica"];
+  Node9 [label="Text",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" currentState" ,fontname="Helvetica"];
+  Node10 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" highlighterView" ,fontname="Helvetica"];
+  Node10 [label="ThunderRoad.InteractableData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_interactable_data.html",tooltip="Class InteractableData. Implements the ThunderRoad.CatalogData"];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" highlighterPrefab" ,fontname="Helvetica"];
+  Node10 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" highlighterView" ,fontname="Helvetica"];
+  Node11 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" grabEffectData" ,fontname="Helvetica"];
+  Node11 [label="ThunderRoad.EffectData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_data.html",tooltip="Class EffectData. Implements the ThunderRoad.CatalogData"];
+  Node5 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rotationDrive\ntwoHandedMode\nslideMotorDir" ,fontname="Helvetica"];
+  Node12 [label="ThunderRoad.Interactable\lHandle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_interactable_handle.html",tooltip="Class InteractableHandle. Implements the ThunderRoad.InteractableData"];
+  Node4 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" grabEffectData" ,fontname="Helvetica"];
+  Node12 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rotationDrive\ntwoHandedMode\nslideMotorDir" ,fontname="Helvetica"];
+  Node13 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" handPoseData\nspellFireHandPoseData" ,fontname="Helvetica"];
+  Node13 [label="ThunderRoad.HandPoseData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_hand_pose_data.html",tooltip="Class HandPoseData. Implements the ThunderRoad.CatalogData"];
+  Node5 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" handPoseData\nspellFireHandPoseData" ,fontname="Helvetica"];
+  Node2 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" bodyTurnDirection\nliftBehaviour" ,fontname="Helvetica"];
+}

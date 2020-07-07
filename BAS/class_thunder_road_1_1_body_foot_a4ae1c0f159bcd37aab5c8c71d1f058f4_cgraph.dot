@@ -1,0 +1,17 @@
+digraph "ThunderRoad.BodyFoot.MirrorConfigToOtherHand"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.BodyFoot.Mirror\lConfigToOtherHand",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Mirrors the configuration to other hand."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.BodyFoot.Get\lOtherFoot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body_foot.html#af4fa45c477de3c2b85771722189ac024",tooltip="Gets the other foot."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.BodyFoot.OnValidate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body_foot.html#abc44c846826a3d09af3edfa62a4d8c7d",tooltip="Called when [validate]."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.BodyFoot.Create\lDefaultGrip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body_foot.html#ae2d52b89e569e4be8e214e7e245d182d",tooltip="Creates the default grip."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.IconManager.\lSetIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_icon_manager.html#a7c768a3eaba901dbaa89665532e4e28c",tooltip="Sets the icon."];
+  Node5 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

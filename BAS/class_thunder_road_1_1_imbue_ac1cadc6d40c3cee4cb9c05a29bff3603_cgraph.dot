@@ -1,0 +1,17 @@
+digraph "ThunderRoad.Imbue.Transfer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Imbue.Transfer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Transfers the specified spell cast base."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.SpellCastCharge.Load",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_cast_charge.html#af5490af67eca672e6a74a7d1b3693648",tooltip="Loads the specified spell caster."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.SpellCastCharge.\lUnload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_cast_charge.html#a1a8a0e1b874e778a997eea8e99aaa35d",tooltip="Unloads this instance."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.EffectInstance.End",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#a2145ac61404303ad31bfda14880e77e5",tooltip="Ends the specified loop only."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.SpellCaster.\lStopFingersEffect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_caster.html#a0a1f7dabe424e87df53845b1987d8d9d",tooltip="Stops the fingers effect."];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,19 @@
+digraph "ThunderRoad.ActionStrafe.End"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.ActionStrafe.End",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Ends this instance."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Locomotion.MoveStop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_locomotion.html#a0f7eff462503193dc7cc5e96a70cd5f3",tooltip="Moves the stop."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.CreatureNavigation.\lStopNavigation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_creature_navigation.html#a14cf459c6d29090f30f5d0678bb0e9e1",tooltip="Stops the navigation."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.CreatureNavigation.\lOnNavigationEnded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_creature_navigation.html#aee708dd8f317096bfbd9d00a71072a64",tooltip="Called when [navigation ended]."];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Body.SetStep\lLocomotion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body.html#a1e839fc506c9973e8223968aa71558ae",tooltip="Sets the step locomotion."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.CreatureNavigation.\lStopTurn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_creature_navigation.html#acfed25c9937ebfcecfa0ca6d57ad189b",tooltip="Stops the turn."];
+}

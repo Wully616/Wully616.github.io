@@ -1,0 +1,20 @@
+digraph "ThunderRoad.EffectModuleVfx.Spawn"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.EffectModule\lVfx.Spawn",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Spawns the specified effect data."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.EffectModule\lVfx.Configure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_module_vfx.html#a587576ec5361ca181f5ac6570a49e13d",tooltip="Configures the specified effect VFX."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.EffectVfx.Set\lMainGradient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_vfx.html#ab47a71a0c60d689e2d2d9181d21cc07f",tooltip="Sets the main gradient."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.EffectVfx.SetMesh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_vfx.html#a8d8fad6ed636d041b4a890ea1333804f",tooltip="Sets the mesh."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.EffectVfx.Set\lSecondaryGradient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_vfx.html#a9de733c08e25828db81bfa1b05a95f61",tooltip="Sets the secondary gradient."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.EffectVfx.Despawn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_vfx.html#ab77ad0144d291b4def37229ac5ba6774",tooltip="Despawns this instance."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.EffectModule\lVfx.Despawn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_module_vfx.html#a0eb20b5c248c0d66ebe99eac7d03da2c",tooltip="Despawns the specified effect."];
+}

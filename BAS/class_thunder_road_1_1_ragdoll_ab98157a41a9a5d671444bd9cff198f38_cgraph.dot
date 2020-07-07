@@ -1,0 +1,36 @@
+digraph "ThunderRoad.Ragdoll.SliceHead"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Ragdoll.SliceHead",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Slices the head."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Ragdoll.Slice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#ae0be2d60e493d3874fe4d36c71677c44",tooltip="Slices the specified bone."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.RagdollPart.\lDisableCharJointBreakForce",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll_part.html#a0561ce1cb30c579f43c9a03d8a33e5e3",tooltip="Disables the character joint break force."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.GameManager.\lGetLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_game_manager.html#a4b7e3521ff92f30374062207b6e30352",tooltip="Gets the layer."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Ragdoll.GetPart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a63bb50459ca0652451c1aef3fc8155cb",tooltip="Gets the part."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.EffectInstance.Play",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#a2e1b93aec710be57d9a9014149f0c5d5",tooltip="Plays the specified step custom hash identifier."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.Ragdoll.Refresh\lSelfCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#abce0604b71b43c97655a3596466fd485",tooltip="Refreshes the self collision."];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.CollisionHandler.\lRemovePhysicModifier",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_collision_handler.html#a0c22ab9a8eb20a0e65373f111b93362c",tooltip="Removes the physic modifier."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.CollisionHandler.\lRefreshPhysicModifiers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_collision_handler.html#a9baba308d0401342c4f214a885582413",tooltip="Refreshes the physic modifiers."];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ThunderRoad.RagdollPart.\lSetColliders",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll_part.html#ac9eb85154e5d74e66d6756be9f932e12",tooltip="Sets the colliders."];
+  Node2 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ThunderRoad.EffectInstance.\lSetCollisionHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#abb2cbba81a2fbf8710240916e5534613",tooltip="Sets the collision handler."];
+  Node2 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ThunderRoad.EffectInstance.\lSetIntensity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#ab4b317e4c00e6212a31d9af69fca4d16",tooltip="Sets the intensity."];
+  Node2 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ThunderRoad.RagdollPart.\lSetPinJoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll_part.html#a21d4dd742aa88857e741c620986131be",tooltip="Sets the pin joint."];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ThunderRoad.RagdollPart.\lGetPinMaxPositionForce",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll_part.html#acd72acf2e180c26d25000f2543bce040",tooltip="Gets the pin maximum position force."];
+  Node13 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ThunderRoad.RagdollPart.\lGetPinMaxRotationForce",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll_part.html#a72d1133f23c80848e7e536f7717cb2e9",tooltip="Gets the pin maximum rotation force."];
+}

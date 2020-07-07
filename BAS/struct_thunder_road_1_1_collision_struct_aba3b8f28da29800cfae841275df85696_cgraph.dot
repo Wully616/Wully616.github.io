@@ -1,0 +1,14 @@
+digraph "ThunderRoad.CollisionStruct.SpawnEffect"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.CollisionStruct.\lSpawnEffect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Spawns the effect."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.MaterialData.\lGetCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_material_data.html#a7b0e247a17ceab69529f572a643d3b34",tooltip="Gets the collision."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.MaterialEffect\lData.GetDamageEffectBundles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_material_effect_data.html#ac97705fc3289c780c35250b6ba2c7a2e",tooltip="Gets the damage effect bundles."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.MaterialEffect\lData.GetPenetrationEffectBundles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_material_effect_data.html#ae9136bd6f2da13803c25deeadae6e1f6",tooltip="Gets the penetration effect bundles."];
+}

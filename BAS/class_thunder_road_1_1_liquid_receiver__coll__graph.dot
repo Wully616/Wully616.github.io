@@ -1,0 +1,20 @@
+digraph "ThunderRoad.LiquidReceiver"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ThunderRoad.LiquidReceiver",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Class LiquidReceiver. Implements the UnityEngine.MonoBehaviour"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MonoBehaviour",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" liquidContainer" ,fontname="Helvetica"];
+  Node3 [label="ThunderRoad.LiquidContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_liquid_container.html",tooltip="Class LiquidContainer. Implements the UnityEngine.MonoBehaviour"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" effectFlowData" ,fontname="Helvetica"];
+  Node4 [label="ThunderRoad.EffectData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_data.html",tooltip="Class EffectData. Implements the ThunderRoad.CatalogData"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="CatalogData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_catalog_data.html",tooltip="Class CatalogData."];
+  Node6 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" liquidLevelText" ,fontname="Helvetica"];
+  Node6 [label="Text",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" effectFlow" ,fontname="Helvetica"];
+  Node7 [label="ThunderRoad.EffectInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html",tooltip="Class EffectInstance."];
+}

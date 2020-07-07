@@ -1,0 +1,23 @@
+digraph "ThunderRoad.ActionGrab.CanRun"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.ActionGrab.CanRun",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Determines whether this instance can run the specified message."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.ActionGrab.Get\lNearestReachableObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action_grab.html#a07e8e02c0131df66c4c871819e6d9317",tooltip="Gets the nearest reachable object."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.ActionGrab.Get\lGrabPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action_grab.html#a03427a275b2bf9aa8842a733544a0b62",tooltip="Gets the grab position."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.Item.GetMain\lHandle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#a4c8059233a469ef8556c48b64c3c9007",tooltip="Gets the main handle."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.ActionGrab.Handle\lNearThreat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action_grab.html#a6be2f3c95021aa7ceea93cd9d30eccfb",tooltip="Handles the near threat."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.BrainData.Is\lThreat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_brain_data.html#a9989f46fedbca6059e6a18917bf9da78",tooltip="Determines whether the specified creature target is threat."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.Item.IsHanded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#a3f6db977accd385918e6ac7b140e9872",tooltip="Determines whether the specified side is handed."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.Creature.IsAnimatorBusy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_creature.html#a03d311d1f050a844d922f3dc974b1cc3",tooltip="Determines whether [is animator busy]."];
+}

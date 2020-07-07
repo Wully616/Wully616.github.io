@@ -1,0 +1,18 @@
+digraph "ThunderRoad.RagdollData.DamageModifier"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ThunderRoad.RagdollData.\lDamageModifier",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Class DamageModifier."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" partType\naltPartType" ,fontname="Helvetica"];
+  Node2 [label="ThunderRoad.RagdollData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll_data.html",tooltip="Class RagdollData. Implements the ThunderRoad.CatalogData"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CatalogData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_catalog_data.html",tooltip="Class CatalogData."];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" footStepMaterialData" ,fontname="Helvetica"];
+  Node4 [label="ThunderRoad.MaterialData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_material_data.html",tooltip="Class MaterialData. Implements the ThunderRoad.CatalogData"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" defaultDamageModifier" ,fontname="Helvetica"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" damagerEffectData" ,fontname="Helvetica"];
+  Node5 [label="ThunderRoad.EffectData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_data.html",tooltip="Class EffectData. Implements the ThunderRoad.CatalogData"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

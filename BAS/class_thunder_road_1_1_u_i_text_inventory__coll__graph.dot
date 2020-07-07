@@ -1,0 +1,36 @@
+digraph "ThunderRoad.UITextInventory"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.UITextInventory",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Class UITextInventory. Implements the ThunderRoad.UIText"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="UIText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_i_text.html",tooltip="Class UIText. Implements the UnityEngine.MonoBehaviour"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MonoBehaviour",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" textComponent" ,fontname="Helvetica"];
+  Node4 [label="Text",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" inventory" ,fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Inventory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_inventory.html",tooltip="Class Inventory. Implements the UnityEngine.MonoBehaviour"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" selectedDamager" ,fontname="Helvetica"];
+  Node6 [label="ThunderRoad.DamagerData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_damager_data.html",tooltip="Class DamagerData. Implements the ThunderRoad.CatalogData"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="CatalogData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_catalog_data.html",tooltip="Class CatalogData."];
+  Node6 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" penetrationSize\naddForceTargetType\naddForceState\nknockout" ,fontname="Helvetica"];
+  Node8 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" materialDamageData\nbadAngleMaterialDamageData" ,fontname="Helvetica"];
+  Node8 [label="ThunderRoad.MaterialDamageData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_material_damage_data.html",tooltip="Class MaterialDamageData. Implements the ThunderRoad.CatalogData"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" defaultModifier" ,fontname="Helvetica"];
+  Node9 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" materialEffectData\nbadAngleMaterialEffectData" ,fontname="Helvetica"];
+  Node9 [label="ThunderRoad.MaterialEffectData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_material_effect_data.html",tooltip="Class MaterialEffectData. Implements the ThunderRoad.CatalogData"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" container" ,fontname="Helvetica"];
+  Node10 [label="ThunderRoad.Container",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_container.html",tooltip="Class Container. Implements the UnityEngine.MonoBehaviour"];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" selectedContent" ,fontname="Helvetica"];
+  Node11 [label="ThunderRoad.ContainerData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_container_data.html",tooltip="Class ContainerData. Implements the ThunderRoad.CatalogData"];
+  Node7 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" value" ,fontname="Helvetica"];
+}

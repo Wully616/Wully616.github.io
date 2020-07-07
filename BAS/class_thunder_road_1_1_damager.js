@@ -1,0 +1,28 @@
+var class_thunder_road_1_1_damager =
+[
+    [ "Awake", "class_thunder_road_1_1_damager.html#ad22834c54d5de10832267bce7fe2a741", null ],
+    [ "CheckAngles", "class_thunder_road_1_1_damager.html#a8349653e4f5c9557297317c73c179ab9", null ],
+    [ "CheckAngles", "class_thunder_road_1_1_damager.html#a57d08caeaf0dc33638dfb82141eb5061", null ],
+    [ "CheckPenetration", "class_thunder_road_1_1_damager.html#aecd84e0bb4ef79aa20f036f78a60acfa", null ],
+    [ "CheckSlice", "class_thunder_road_1_1_damager.html#af157727ec05b9da1a20aa2f77bd25eb0", null ],
+    [ "GetAllEffectID", "class_thunder_road_1_1_damager.html#aeda78c7a54df19c6eb68b423e0c9c7e9", null ],
+    [ "Load", "class_thunder_road_1_1_damager.html#a3cfaf0ef09d64d10cca08fef78817594", null ],
+    [ "OnGrab", "class_thunder_road_1_1_damager.html#a3c4e6d7b28e292ded70d5ded1bd2a92e", null ],
+    [ "OnRelease", "class_thunder_road_1_1_damager.html#ab82834d7f96c9601402d4f1a1b73ccb9", null ],
+    [ "OnSnap", "class_thunder_road_1_1_damager.html#af4669a3b196ba45b76a5305ec027d975", null ],
+    [ "Penetrate", "class_thunder_road_1_1_damager.html#a40dddd061247b26216b5d470cd237909", null ],
+    [ "RefreshJointDrive", "class_thunder_road_1_1_damager.html#aa3ded5d89e1b2c50c5a8122882e0befe", null ],
+    [ "TryHit", "class_thunder_road_1_1_damager.html#abe4bcfc6e4886fbe292e89d5c9a47165", null ],
+    [ "TryHitByPressure", "class_thunder_road_1_1_damager.html#a5ce1f06e6bc493fb8a87ce3a75218bdc", null ],
+    [ "UnPenetrate", "class_thunder_road_1_1_damager.html#a9833200091ec2bbe4733cabf37fc19ae", null ],
+    [ "UnPenetrateAll", "class_thunder_road_1_1_damager.html#a528d5f921eb60bf5695fe265e5223702", null ],
+    [ "Update", "class_thunder_road_1_1_damager.html#a0d62a21ddf749663449250750568c907", null ],
+    [ "collisionHandler", "class_thunder_road_1_1_damager.html#ae51717e9adc754271de40ce1d39fbc47", null ],
+    [ "damagerImbue", "class_thunder_road_1_1_damager.html#a0d42cd72193710e934c3dbe8a167251c", null ],
+    [ "data", "class_thunder_road_1_1_damager.html#a3d7d210bdc9a3f31780541d7fed5e982", null ],
+    [ "definition", "class_thunder_road_1_1_damager.html#a26c3c9273f8c8763a4c6e8f18cdba17c", null ],
+    [ "dmgCollider", "class_thunder_road_1_1_damager.html#a6be5e087d089c488c07eebc26bab33ef", null ],
+    [ "lastHitCollider", "class_thunder_road_1_1_damager.html#a6083363f99d0a84cb57535b63bf34cc8", null ],
+    [ "lastHitTime", "class_thunder_road_1_1_damager.html#a92eb2db8a9a65c6a67d3ca071895fcd8", null ],
+    [ "loaded", "class_thunder_road_1_1_damager.html#a97a402488ee0a3490363f0f4908b72dc", null ]
+];

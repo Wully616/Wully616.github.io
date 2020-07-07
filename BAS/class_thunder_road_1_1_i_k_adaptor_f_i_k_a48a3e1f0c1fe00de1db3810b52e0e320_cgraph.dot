@@ -1,0 +1,12 @@
+digraph "ThunderRoad.IKAdaptorFIK.SetShoulderAnchor"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.IKAdaptorFIK.\lSetShoulderAnchor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Sets the shoulder anchor."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.IKAdaptorFIK.\lSetShoulderState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_i_k_adaptor_f_i_k.html#a35511a2d24402bba0aba095b91a04983",tooltip="Sets the state of the shoulder."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.IKAdaptorFIK.\lSetShoulderWeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_i_k_adaptor_f_i_k.html#a35da77cdb3c2c959b79d9459f8f70b99",tooltip="Sets the shoulder weight."];
+}

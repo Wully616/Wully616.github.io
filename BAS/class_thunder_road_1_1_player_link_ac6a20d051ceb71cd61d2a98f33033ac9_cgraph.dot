@@ -1,0 +1,22 @@
+digraph "ThunderRoad.PlayerLink.Attach"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.PlayerLink.Attach",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Attaches the specified rigidbody."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Item.IgnoreRagdoll\lCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#ab840281a41308d6826a91926b94e7e67",tooltip="Ignores the ragdoll collision."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.Item.ResetRagdoll\lCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#a4a7ec512ce5de13942770c4ee678fb40",tooltip="Resets the ragdoll collision."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.Ragdoll.Ignore\lCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a3429b1cdefa48b676118205483ad9406",tooltip="Ignores the collision."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Ragdoll.HasPartType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a8bf62a566d0502f63a0933c47d747d78",tooltip="Determines whether [has part type] [the specified part types]."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.PlayerLink.Refresh\lIkAnchor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_link.html#ace8e9c4b3db1a9140f273fb5d97a8ac8",tooltip="Refreshes the ik anchor."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.PlayerLink.Refresh\lJointConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_link.html#acf8e9650b0884014e3eba937f64fbce1",tooltip="Refreshes the joint configuration."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.PlayerLink.Set\lJointConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_link.html#a3129bec6ebda69cd631dd61430701b53",tooltip="Sets the joint configuration."];
+}

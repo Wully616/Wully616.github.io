@@ -1,0 +1,12 @@
+digraph "ThunderRoad.PostProcessManager.OnPossession"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.PostProcessManager.\lOnPossession",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when [possession]."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.PostProcessManager.\lRefreshHealth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_post_process_manager.html#aa422586eecb2d5259ec2c9851f293fac",tooltip="Refreshes the health."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.PostProcessManager.\lRefreshPostProcess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_post_process_manager.html#a1a53a29e9c9b579cc65c40713afebd56",tooltip="Refreshes the post process."];
+}

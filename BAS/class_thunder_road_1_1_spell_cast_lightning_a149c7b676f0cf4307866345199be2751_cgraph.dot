@@ -1,0 +1,48 @@
+digraph "ThunderRoad.SpellCastLightning.OnImbueCollisionStart"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.SpellCastLightning.\lOnImbueCollisionStart",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when [imbue collision start]."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.SpellCastLightning.Hit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_cast_lightning.html#ac99616fcce9ee71492a77146abd6e551",tooltip="Hits the specified collider group."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.Health.Damage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_health.html#a18b5ee236846af81d62aeed4fc78e760",tooltip="Damages the specified collision structure."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.Health.Kill",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_health.html#a2c2a538f37e7523fbd5b75b67afa1985",tooltip="Kills this instance."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.EffectInstance.Play",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#a2e1b93aec710be57d9a9014149f0c5d5",tooltip="Plays the specified step custom hash identifier."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.ActionShock.\lRefresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action_shock.html#a37b7069e2b72616355d3ead8ff6b7396",tooltip="Refreshes the specified force."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.EffectInstance.\lSetCollisionHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#abb2cbba81a2fbf8710240916e5534613",tooltip="Sets the collision handler."];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.EffectInstance.\lSetIntensity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#ab4b317e4c00e6212a31d9af69fca4d16",tooltip="Sets the intensity."];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.EffectData.Spawn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_data.html#a63841dec71870c38eba2dd432ff8878e",tooltip="Spawns the specified parent."];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ThunderRoad.Imbue.Transfer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_imbue.html#ac1cadc6d40c3cee4cb9c05a29bff3603",tooltip="Transfers the specified spell cast base."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ThunderRoad.SpellCastCharge.Load",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_cast_charge.html#af5490af67eca672e6a74a7d1b3693648",tooltip="Loads the specified spell caster."];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ThunderRoad.SpellCastCharge.\lUnload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_cast_charge.html#a1a8a0e1b874e778a997eea8e99aaa35d",tooltip="Unloads this instance."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ThunderRoad.EffectInstance.End",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#a2145ac61404303ad31bfda14880e77e5",tooltip="Ends the specified loop only."];
+  Node12 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ThunderRoad.SpellCaster.\lStopFingersEffect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_caster.html#a0a1f7dabe424e87df53845b1987d8d9d",tooltip="Stops the fingers effect."];
+  Node14 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ThunderRoad.Creature.Try\lAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_creature.html#ab050907b4eded79275fefdf36e696378",tooltip="Tries the action."];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ThunderRoad.Action.Begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action.html#a4cd7b5811229176ad31386496eeffc95",tooltip="Begins this instance."];
+  Node15 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ThunderRoad.Action.CanRun",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action.html#a0a1bddb357a58971b530aed200b7a50f",tooltip="Determines whether this instance can run."];
+  Node15 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ThunderRoad.Action.GetTargets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action.html#aad311ab9fd6fbd0319fe602a266c800a",tooltip="Gets the targets."];
+  Node15 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ThunderRoad.Action.Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_action.html#a8966f3e62d2704f707c76dd43aa6a030",tooltip="Initializes the specified creature."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

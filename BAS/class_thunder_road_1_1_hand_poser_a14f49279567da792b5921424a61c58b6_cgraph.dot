@@ -1,0 +1,12 @@
+digraph "ThunderRoad.HandPoser.CreateHandPose"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.HandPoser.Create\lHandPose",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Creates the hand pose."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.HandPoseData.\lGetPrefab",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_hand_pose_data.html#abc729a187023dda39d7ce16ce353b208",tooltip="Gets the prefab."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.HandPoseDefinition.\lMirror",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_hand_pose_definition.html#ad661a007f970698fdb28d5178e7ef376",tooltip="Mirrors this instance."];
+}

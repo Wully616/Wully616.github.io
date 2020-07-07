@@ -1,0 +1,18 @@
+digraph "ThunderRoad.LevelModuleWave.StartWaveCoroutine"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.LevelModuleWave.\lStartWaveCoroutine",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Starts the wave coroutine."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.LevelModuleWave.\lUpdateSpawner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_level_module_wave.html#af83d96303836819793768ebcd78c05ea",tooltip="Updates the spawner."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.LevelModuleWave.\lStartSpawnGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_level_module_wave.html#a7fd5335a388b237dcf927d47c522413d",tooltip="Starts the spawn group."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.LevelModuleWave.\lStopWave",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_level_module_wave.html#ab47499ee3ad91b4e85d8ff4cf19a12a6",tooltip="Stops the wave."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Creature.Set\lFaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_creature.html#a469a61f44346845588b7f876dae59e2d",tooltip="Sets the faction."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.GameData.Get\lFaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_game_data.html#aefd7717cf6e1b40d17e4bbcd50d3d4fa",tooltip="Gets the faction."];
+}

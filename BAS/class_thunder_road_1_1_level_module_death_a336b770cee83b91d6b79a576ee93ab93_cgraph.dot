@@ -1,0 +1,46 @@
+digraph "ThunderRoad.LevelModuleDeath.OnCreatureKill"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.LevelModuleDeath.\lOnCreatureKill",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when [creature kill]."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.LevelModuleDeath.\lOnDeathCoroutine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_level_module_death.html#aa3bbea1cd0175d24bb7ce2828bb68e80",tooltip="Called when [death coroutine]."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.LevelModuleWave.\lCancelWave",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_level_module_wave.html#ade4f9ae092a66088e269e0c172f1c393",tooltip="Cancels the wave."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.LevelModuleWave.\lStopWave",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_level_module_wave.html#ab47499ee3ad91b4e85d8ff4cf19a12a6",tooltip="Stops the wave."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Creature.Set\lFaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_creature.html#a469a61f44346845588b7f876dae59e2d",tooltip="Sets the faction."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.GameData.Get\lFaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_game_data.html#aefd7717cf6e1b40d17e4bbcd50d3d4fa",tooltip="Gets the faction."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.PostProcessManager.\lDoTimedEffect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_post_process_manager.html#a1a8bd0684ccf2ef41e3e8be165fbfd7f",tooltip="Does the timed effect."];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.Pointer.GetActive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_pointer.html#a5a53face2f6617f61b01ca3aec6563ba",tooltip="Gets the active."];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.GameManager.\lGetCurrentLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_game_manager.html#a5c90d4b6a9a71b4dedf872967a1b6bb3",tooltip="Gets the current level."];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ThunderRoad.GameManager.\lLoadLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_game_manager.html#a7150f33e5eec4df36b3a4601d2cb007c",tooltip="Loads the level."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ThunderRoad.LevelData.Get\lFirstModRank",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_level_data.html#abec0b8b3f925340b5ff79719974178e7",tooltip="Gets the first mod rank."];
+  Node10 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ThunderRoad.MenuBook.SetPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_book.html#a8539600a8431a5ce964c4bb115a13d26",tooltip=" "];
+  Node2 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ThunderRoad.PostProcessManager.\lSetSepia",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_post_process_manager.html#a96055bcc4cb2acf47e030b17df8fa265",tooltip="Sets the sepia."];
+  Node2 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ThunderRoad.MenuBook.Show\lToPlayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_book.html#aa4ae3cf651672fb02ac4e469ccab670d",tooltip=" "];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ThunderRoad.MenuBook.Get\lPlayerSpawnPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_book.html#a7e1bbd1ab63d655117f649ce59cd1101",tooltip=" "];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ThunderRoad.MenuBook.HideBook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_book.html#a5575e0f6c089b91a02a784b4b6a7c100",tooltip=" "];
+  Node16 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ThunderRoad.MenuModule.OnShow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_module.html#a7f682303b5f3988c7a1165eec3148cc3",tooltip="Called when [show]."];
+  Node14 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ThunderRoad.MenuBook.Refresh\lNavBar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_book.html#ad9f5133215e7cdabeb4c99fccd591df8",tooltip="Refreshes the nav bar."];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ThunderRoad.MenuModule.Get\lState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_module.html#a30562c216f66556ab73ad148048e3e54",tooltip="Gets the state."];
+}

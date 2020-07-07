@@ -1,0 +1,16 @@
+digraph "ThunderRoad.Damager.TryHitByPressure"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Damager.TryHit\lByPressure",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Tries the hit by pressure."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Damager.Check\lAngles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_damager.html#a57d08caeaf0dc33638dfb82141eb5061",tooltip="Checks the angles."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.MaterialDamage\lData.GetModifier",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_material_damage_data.html#a69a968064bcea0e8bbd5f18df27b043f",tooltip="Gets the modifier."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.Damager.Penetrate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_damager.html#a40dddd061247b26216b5d470cd237909",tooltip="Penetrates the specified collision structure."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Damager.Refresh\lJointDrive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_damager.html#aa3ded5d89e1b2c50c5a8122882e0befe",tooltip="Refreshes the joint drive."];
+}

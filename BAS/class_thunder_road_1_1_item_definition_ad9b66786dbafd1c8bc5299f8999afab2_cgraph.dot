@@ -1,0 +1,10 @@
+digraph "ThunderRoad.ItemDefinition.OnDrawGizmosSelected"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.ItemDefinition.\lOnDrawGizmosSelected",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when [draw gizmos selected]."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.ItemDefinition.\lDrawGizmoArrow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item_definition.html#ac6b7b2b2b3eb1044294f30e96d1b2213",tooltip="Draws the gizmo arrow."];
+}

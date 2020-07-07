@@ -1,0 +1,12 @@
+digraph "ThunderRoad.ItemHand.OnTriggerStay"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.ItemHand.OnTriggerStay",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when [trigger stay]."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.ItemHand.Check\lFingersOverlap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item_hand.html#a55bc98be5cb8ef57111ba47f1a7cfac3",tooltip="Checks the fingers overlap."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.ItemHand.Check\lFingerOverlap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item_hand.html#a04dcbd4cfd2e4b6262c45e82ac46eeb3",tooltip="Checks the finger overlap."];
+}

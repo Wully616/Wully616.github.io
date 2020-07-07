@@ -1,0 +1,10 @@
+digraph "ThunderRoad.UMAPreset.GetUMAHairs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.UMAPreset.Get\lUMAHairs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Gets the uma hairs."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.UMAPreset.Get\lAvailableWardRobe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_m_a_preset.html#ab22ab3e1d99809ed7cab7f7489434e16",tooltip="Gets the available ward robe."];
+}

@@ -1,0 +1,16 @@
+digraph "ThunderRoad.SpellCastProjectile.Fire"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.SpellCastProjectile.Fire",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Fires the specified active."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.SpellCastProjectile.\lStopProjectileGuidance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_cast_projectile.html#a3888adfd7ac63861d461b39676667a17",tooltip="Stops the projectile guidance."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.SpellCastProjectile.\lOnProjectileCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_cast_projectile.html#afaadfc0fa36f516a0b54b81e29717d6d",tooltip="Called when [projectile collision]."];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.SpellCastProjectile.\lOnProjectileDespawn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_cast_projectile.html#a5fb952323b022e0ace117291c9a77aff",tooltip="Called when [projectile despawn]."];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

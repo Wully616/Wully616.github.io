@@ -1,0 +1,14 @@
+digraph "ThunderRoad.SpellCastGravity.Load"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.SpellCastGravity.Load",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Loads the specified imbue."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.CollisionHandler.\lSetPhysicModifier",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_collision_handler.html#afcf812201464805f2f65e4cdc3213134",tooltip="Sets the physic modifier."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.CollisionHandler.\lRefreshPhysicModifiers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_collision_handler.html#a9baba308d0401342c4f214a885582413",tooltip="Refreshes the physic modifiers."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.EffectInstance.\lSetRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#a298c7f8ff7afe1ea8f67044627b495e1",tooltip="Sets the renderer."];
+}

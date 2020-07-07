@@ -1,0 +1,32 @@
+digraph "ThunderRoad.Damager.Update"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Damager.Update",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Updates this instance."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.EffectInstance.\lCollisionStay",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#ae435c5027d87f9d71d2905153520cd8f",tooltip="Collisions the stay."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.Health.Damage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_health.html#a18b5ee236846af81d62aeed4fc78e760",tooltip="Damages the specified collision structure."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.Health.Kill",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_health.html#a2c2a538f37e7523fbd5b75b67afa1985",tooltip="Kills this instance."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.EffectInstance.Play",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#a2e1b93aec710be57d9a9014149f0c5d5",tooltip="Plays the specified step custom hash identifier."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.Damager.Refresh\lJointDrive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_damager.html#aa3ded5d89e1b2c50c5a8122882e0befe",tooltip="Refreshes the joint drive."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.EffectInstance.\lSetCollisionHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#abb2cbba81a2fbf8710240916e5534613",tooltip="Sets the collision handler."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.Damager.UnPenetrate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_damager.html#a9833200091ec2bbe4733cabf37fc19ae",tooltip="Uns the penetrate."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.Ragdoll.Ignore\lCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a3429b1cdefa48b676118205483ad9406",tooltip="Ignores the collision."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ThunderRoad.Ragdoll.HasPartType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a8bf62a566d0502f63a0933c47d747d78",tooltip="Determines whether [has part type] [the specified part types]."];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ThunderRoad.CollisionHandler.\lStopCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_collision_handler.html#a5945ff101996a286d52c439d236f1c04",tooltip="Stops the collision."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ThunderRoad.EffectInstance.End",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#a2145ac61404303ad31bfda14880e77e5",tooltip="Ends the specified loop only."];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ThunderRoad.DamageStruct.\lReset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_thunder_road_1_1_damage_struct.html#a187a874ad222f6753b0eddc8eb93f4c9",tooltip="Resets this instance."];
+}

@@ -1,0 +1,12 @@
+digraph "ThunderRoad.Caroussel.UpdateUmaCustomization"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Caroussel.Update\lUmaCustomization",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Updates the uma customization."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.UMAPreset.Update\lFromDCS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_m_a_preset.html#a0914de289658420eb365cabb45dcd436",tooltip="Updates from DCS."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.UMAPreset.GetDNA",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_m_a_preset.html#ab0aae1cf73e7c372775725b82bf3f6b3",tooltip="Gets the dna."];
+}

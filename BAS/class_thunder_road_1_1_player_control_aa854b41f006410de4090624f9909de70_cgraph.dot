@@ -1,0 +1,31 @@
+digraph "ThunderRoad.PlayerControl.Cast"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.PlayerControl.Cast",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Casts the specified side."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.SpellCaster.Fire",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_caster.html#a3cb2e2bd8ee15abb0aa756d16f92fd69",tooltip="Fires the specified active."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.SpellCastData.Fire",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_cast_data.html#a09e15ca3c181f347ff714472d905eb98",tooltip="Fires the specified active."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.PlayerControl.\lGetHand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_control.html#a35f9d9f52e8ffc5ad4a3b3a8a18541b9",tooltip="Gets the hand."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Trigger.SetActive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_trigger.html#acf6a7e82fb1cbb9c1f1e9f2e998b487c",tooltip="Sets the active."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.SpellCaster.\lFireAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_caster.html#a4b5a16d9c556490f03e743e307afa484",tooltip="Fires the axis."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.SpellCastData.\lFireAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_cast_data.html#a2a94bcaf6795b2f793de8a1fcccf6b4d",tooltip="Fires the axis."];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.SpellMergeData.\lFireAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_merge_data.html#a0bad8ae4e375bdff02fb06bca008922c",tooltip="Fires the axis."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.Mana.GetCaster",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_mana.html#a40b781943c59a37c18ea44dd84fc946d",tooltip="Gets the caster."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ThunderRoad.Player.GetHand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player.html#a962a51d7c0c39e3a5f74763002d394ea",tooltip="Gets the hand."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ThunderRoad.Pointer.GetPointer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_pointer.html#a304000b4d3e6e5b29a3799c9566e638b",tooltip="Gets the pointer."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ThunderRoad.SpellSelector.\lIsShown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_selector.html#a5b86b5cf9a5e782b9ac5f25bcb3f23c1",tooltip="Determines whether the specified side is shown."];
+}

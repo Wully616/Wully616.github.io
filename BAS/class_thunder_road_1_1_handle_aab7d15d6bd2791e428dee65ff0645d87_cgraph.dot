@@ -1,0 +1,46 @@
+digraph "ThunderRoad.Handle.SetSliding"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Handle.SetSliding",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Sets the sliding."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Handle.Refresh\lAllJointDrives",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle.html#ad1621fdf3dc9cf924f766dc222cab556",tooltip="Refreshes all joint drives."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.Handle.Refresh\lJointDrive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle.html#a198ca29640ae1e41a39f0fcd9791c00a",tooltip="Refreshes the joint drive."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.HandleDefinition.\lGetNearestAxisPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle_definition.html#aaecf5668b0c379d67ae0f0dabc9eb8a2",tooltip="Gets the nearest axis position."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Handle.IsHanded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle.html#ad64cb9ca1c1e26afc1606d729250516a",tooltip="Determines whether this instance is handed."];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.Item.IsTwoHanded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#aa71f102491e167e0878f9617ec50f22e",tooltip="Determines whether [is two handed] [the specified valid handles]."];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.Handle.SetJoint\lConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle.html#af877a8b9023994e0b6f3b42365749685",tooltip="Sets the joint configuration."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.Morphology.Get\lArmCenterToFingerTipLenght",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_morphology.html#a4dc479d6cf56495d577fc193e2c99cae",tooltip="Gets the arm center to finger tip lenght."];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.Handle.SetJoint\lToTwoHanded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle.html#a50056543c9c56711ac6bb1b347ec973f",tooltip="Sets the joint to two handed."];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ThunderRoad.Handle.Update\lSliding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle.html#a9144b2d040743c8c11366afa5edcff95",tooltip="Updates the sliding."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ThunderRoad.PlayerControl.\lGetHand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_control.html#a35f9d9f52e8ffc5ad4a3b3a8a18541b9",tooltip="Gets the hand."];
+  Node10 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ThunderRoad.HandleDefinition.\lGetNearestPositionAlongAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle_definition.html#a4be84b1bc8db0d0812c0dc194f2e6068",tooltip="Gets the nearest position along axis."];
+  Node12 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ThunderRoad.GameManager.\lGetTimeStepMultiplier",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_game_manager.html#ab8892ec7641b97f4ed1f961c0662aea7",tooltip="Gets the time step multiplier."];
+  Node10 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ThunderRoad.Interactor.Grab\lRelative",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_interactor.html#a12a4afe40fd1fbb05b48ba5e1f366855",tooltip="Grabs the relative."];
+  Node14 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ThunderRoad.HandleDefinition.\lGetNearestOrientation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle_definition.html#a8b0f387e808fe21e3d6ee9bd2cc89cba",tooltip="Gets the nearest orientation."];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ThunderRoad.Interactor.Grab",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_interactor.html#a1a3eda7399356280f55b82607f02a74e",tooltip="Grabs the specified handle."];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ThunderRoad.HandleDefinition.\lGetDefaultAxisLocalPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle_definition.html#a0942db018cce7f5f765299dc1c5e3e09",tooltip="Gets the default axis local position."];
+  Node16 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ThunderRoad.HandleDefinition.\lGetDefaultOrientation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle_definition.html#aa732352268d3931f2c3ce33c8e2e9cbf",tooltip="Gets the default orientation."];
+}

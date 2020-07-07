@@ -1,0 +1,50 @@
+digraph "ThunderRoad.Player.SetBody"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Player.SetBody",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Sets the body."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Player.SetBody\lCoroutine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player.html#a81ee86e0ef9a7b346afe02053b4837f5",tooltip="Sets the body coroutine."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.Player.CalibrateBody",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player.html#a6b5380cf00142223271979a8e9b59ccc",tooltip="Calibrates the body."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.Body.Calibrate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body.html#ae92dae2b8e5624fcac17c030047ab987",tooltip="Calibrates this instance."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Locomotion.Set\lCapsuleCollider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_locomotion.html#a15ff1202536b7fe2aff9e892b223594c",tooltip="Sets the capsule collider."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.Player.CopyLocomotion\lValuesFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player.html#ac71e62c7cca90dfba098b4dc8a30a0dd",tooltip="Copies the locomotion values from."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.GameManager.\lGetLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_game_manager.html#a4b7e3521ff92f30374062207b6e30352",tooltip="Gets the layer."];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.EventManager.\lInvokePossession",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_event_manager.html#a9e4a4c5913907c3ac03f6b40d401fb19",tooltip="Invokes the possession."];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.Player.MoveToBody",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player.html#a82ec5ad086c968f63714aa6308a6ea0e",tooltip="Moves to body."];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ThunderRoad.Body.OnPossession",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body.html#a65793276df6340092c64136da8eab9bf",tooltip="Called when [possession]."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ThunderRoad.PlayerControl.\lGetWaistTracking",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_player_control.html#a9db7d87dc955e52677e182683d36c45f",tooltip="Gets the waist tracking."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ThunderRoad.InputBase.Get\lWaistTracking",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_input_base.html#a68d0dae92f22754dfb2318706a5cf9f7",tooltip="Gets the waist tracking."];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ThunderRoad.Ragdoll.Refresh\lIKState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_ragdoll.html#a4a2919a73a4b441770329465e888fefa",tooltip="Refreshes the state of the ik."];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ThunderRoad.IKAdaptor.Set\lState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_i_k_adaptor.html#ac6aad81cc98d5bf27f06f05186ba9139",tooltip="Sets the state."];
+  Node10 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ThunderRoad.Locomotion.Set\lActive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_locomotion.html#a42376933acd3a910da0bf5ca6f8f0cff",tooltip="Sets the active."];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ThunderRoad.Locomotion.MoveStop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_locomotion.html#a0f7eff462503193dc7cc5e96a70cd5f3",tooltip="Moves the stop."];
+  Node2 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ThunderRoad.Highlighter.\lSetState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_highlighter.html#aa1487a513b92c7ebb44777930e1bed55",tooltip="Sets the state."];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ThunderRoad.Highlighter.\lRefreshAxisLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_highlighter.html#a2f25cea56d529813f8ae47a74990f6b1",tooltip="Refreshes the axis line."];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ThunderRoad.Highlighter.\lRefreshAxisCenterPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_highlighter.html#a474c763a3a6919ceb4ea47af8062388e",tooltip="Refreshes the axis center position."];
+  Node18 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ThunderRoad.Highlighter.\lRefreshAxisLineLenght",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_highlighter.html#ab0ff2e6f311cb6cd2fd0fb8b7746c325",tooltip="Refreshes the axis line lenght."];
+  Node20 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ThunderRoad.Highlighter.\lGetCenterRadius",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_highlighter.html#a946a62aaa694183e1f8d9b331d450a16",tooltip="Gets the center radius."];
+  Node17 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="ThunderRoad.Highlighter.\lSetOutlineColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_highlighter.html#a5aef3e86635cbcbaaa727f9d5fb3409c",tooltip="Sets the color of the outline."];
+}

@@ -1,0 +1,25 @@
+digraph "ThunderRoad.Handle.OnTouchEnd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Handle.OnTouchEnd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when [touch end]."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.ObjectHolder.\lOnTouchEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_object_holder.html#afd8d7667241772f91b6fe6f4d6dba74d",tooltip="Called when [touch end]."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.Item.GetMain\lHandle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#a4c8059233a469ef8556c48b64c3c9007",tooltip="Gets the main handle."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.Highlighter.\lSetState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_highlighter.html#aa1487a513b92c7ebb44777930e1bed55",tooltip="Sets the state."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Highlighter.\lRefreshAxisLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_highlighter.html#a2f25cea56d529813f8ae47a74990f6b1",tooltip="Refreshes the axis line."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.Highlighter.\lRefreshAxisCenterPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_highlighter.html#a474c763a3a6919ceb4ea47af8062388e",tooltip="Refreshes the axis center position."];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.Highlighter.\lRefreshAxisLineLenght",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_highlighter.html#ab0ff2e6f311cb6cd2fd0fb8b7746c325",tooltip="Refreshes the axis line lenght."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.Highlighter.\lGetCenterRadius",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_highlighter.html#a946a62aaa694183e1f8d9b331d450a16",tooltip="Gets the center radius."];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.Highlighter.\lSetOutlineColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_highlighter.html#a5aef3e86635cbcbaaa727f9d5fb3409c",tooltip="Sets the color of the outline."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

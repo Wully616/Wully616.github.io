@@ -1,0 +1,29 @@
+digraph "ThunderRoad.Imbue.Start"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Imbue.Start",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Starts this instance."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.ColliderGroup.\lGenerateImbueMesh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_collider_group.html#ad478a15ed0aba767ea670ea33d7e6796",tooltip="Generates the imbue mesh."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.ColliderGroup.\lGenerateIcoSphereMesh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_collider_group.html#aedad6ad1b56ca4344178395c03cd9d13",tooltip="Generates the icon sphere mesh."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.Imbue.OnCollision\lStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_imbue.html#a5803fff8f9c48cfa4d690e4fa9a0d2fd",tooltip="Called when [collision start]."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Imbue.Consume\lInstant",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_imbue.html#a9fcbfaa5d76f9c2d391c1dbb382bde55",tooltip="Consumes the instant."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.SpellCastCharge.\lUnload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_cast_charge.html#a1a8a0e1b874e778a997eea8e99aaa35d",tooltip="Unloads this instance."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.EffectInstance.End",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_effect_instance.html#a2145ac61404303ad31bfda14880e77e5",tooltip="Ends the specified loop only."];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.SpellCaster.\lStopFingersEffect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_caster.html#a0a1f7dabe424e87df53845b1987d8d9d",tooltip="Stops the fingers effect."];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.SpellCastCharge.\lOnImbueCollisionStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_cast_charge.html#a5d30b8ddfd9dd3af3ee93f35c0515279",tooltip="Called when [imbue collision start]."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ThunderRoad.Imbue.OnCollisionStop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_imbue.html#ae23619edc76a85aa88d43a0f242c1c51",tooltip="Called when [collision stop]."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ThunderRoad.SpellCastCharge.\lOnImbueCollisionStop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_spell_cast_charge.html#a4b8e967b1721e35556fe57239260950d",tooltip="Called when [imbue collision stop]."];
+}

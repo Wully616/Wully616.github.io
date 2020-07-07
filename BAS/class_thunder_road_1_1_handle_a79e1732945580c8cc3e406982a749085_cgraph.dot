@@ -1,0 +1,12 @@
+digraph "ThunderRoad.Handle.Load"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Handle.Load",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Loads the specified interactable data."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Handle.SetTelekinesis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle.html#ab6f935bbaaeb51473b8dd68c25108200",tooltip="Sets the telekinesis."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.HandleDefinition.\lIsAllowed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle_definition.html#a377fdf9672bbc0d224115730deded19e",tooltip="Determines whether the specified side is allowed."];
+}

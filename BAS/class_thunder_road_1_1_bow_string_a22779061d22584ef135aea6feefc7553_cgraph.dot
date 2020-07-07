@@ -1,0 +1,16 @@
+digraph "ThunderRoad.BowString.Unrest"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.BowString.Unrest",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Unrests this instance."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Handle.SetJoint\lDrive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle.html#a6e144243d0bda199776f8a8422578ff5",tooltip="Sets the joint drive."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.Handle.SetJoint\lConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle.html#af877a8b9023994e0b6f3b42365749685",tooltip="Sets the joint configuration."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.Morphology.Get\lArmCenterToFingerTipLenght",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_morphology.html#a4dc479d6cf56495d577fc193e2c99cae",tooltip="Gets the arm center to finger tip lenght."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Interactable.\lSetTouch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_interactable.html#a050a5fc51f8a10b6d1743c45f4de908a",tooltip="Sets the touch."];
+}

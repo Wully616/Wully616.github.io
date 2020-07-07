@@ -1,0 +1,27 @@
+var class_thunder_road_1_1_effect_instance =
+[
+    [ "AddEffect", "class_thunder_road_1_1_effect_instance.html#a8aa9813c6fda4bd8ddb96026db5ed114", null ],
+    [ "CollisionStay", "class_thunder_road_1_1_effect_instance.html#a64f2f100b971f027c5498ea34d5edbc5", null ],
+    [ "CollisionStay", "class_thunder_road_1_1_effect_instance.html#ae435c5027d87f9d71d2905153520cd8f", null ],
+    [ "Despawn", "class_thunder_road_1_1_effect_instance.html#ae752a52871151d3abcb2a179a4bf3e1d", null ],
+    [ "EffectFinishEvent", "class_thunder_road_1_1_effect_instance.html#afc161bc055066e7a07f5e118163a0433", null ],
+    [ "End", "class_thunder_road_1_1_effect_instance.html#a2145ac61404303ad31bfda14880e77e5", null ],
+    [ "IsIgnoredModule", "class_thunder_road_1_1_effect_instance.html#aea1513b922f59cf5c5ad32621fea1454", null ],
+    [ "OnEffectDespawn", "class_thunder_road_1_1_effect_instance.html#aff91a96c5cc58ae2f83bacd93644d792", null ],
+    [ "Play", "class_thunder_road_1_1_effect_instance.html#a2e1b93aec710be57d9a9014149f0c5d5", null ],
+    [ "SetCollider", "class_thunder_road_1_1_effect_instance.html#ad560da2133d3c4341fdb6bc69be6c804", null ],
+    [ "SetCollisionHandler", "class_thunder_road_1_1_effect_instance.html#abb2cbba81a2fbf8710240916e5534613", null ],
+    [ "SetIntensity", "class_thunder_road_1_1_effect_instance.html#ab4b317e4c00e6212a31d9af69fca4d16", null ],
+    [ "SetLayer", "class_thunder_road_1_1_effect_instance.html#abccc9a71dd015e30f3a623bf47a5311f", null ],
+    [ "SetMainGradient", "class_thunder_road_1_1_effect_instance.html#a9423592b55ddf2d7db63b6b084562920", null ],
+    [ "SetMesh", "class_thunder_road_1_1_effect_instance.html#a99839d8e894a6bf7f668b7739a584b1d", null ],
+    [ "SetParent", "class_thunder_road_1_1_effect_instance.html#a18e9585181596ab45d8aad4c6901b6d6", null ],
+    [ "SetRenderer", "class_thunder_road_1_1_effect_instance.html#a298c7f8ff7afe1ea8f67044627b495e1", null ],
+    [ "SetSecondaryGradient", "class_thunder_road_1_1_effect_instance.html#a34061db4b7f91eb443b95088744f1fbc", null ],
+    [ "SetSource", "class_thunder_road_1_1_effect_instance.html#a9d3862d50928959fb7c602111de6c60e", null ],
+    [ "SetSpeed", "class_thunder_road_1_1_effect_instance.html#a3fcdafeae040b53eff374c5fdf1960a6", null ],
+    [ "SetTarget", "class_thunder_road_1_1_effect_instance.html#a87794195b08dfc45bf7ea9b93f0bc305", null ],
+    [ "Stop", "class_thunder_road_1_1_effect_instance.html#a5c48d3ec17c0b4203dd622c33eb64c81", null ],
+    [ "effects", "class_thunder_road_1_1_effect_instance.html#ade6b473fd4c22b95f0003e9fd6788529", null ],
+    [ "onEffectFinished", "class_thunder_road_1_1_effect_instance.html#a04da4e4f60bab259050416935b1aa602", null ]
+];

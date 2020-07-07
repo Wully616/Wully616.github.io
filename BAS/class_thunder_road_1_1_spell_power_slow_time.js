@@ -1,0 +1,27 @@
+var class_thunder_road_1_1_spell_power_slow_time =
+[
+    [ "Clone", "class_thunder_road_1_1_spell_power_slow_time.html#a415911d42242e2629a3f8f48743ec397", null ],
+    [ "Load", "class_thunder_road_1_1_spell_power_slow_time.html#aaa383706799a1cf90d180d4cd179a14e", null ],
+    [ "OnCatalogRefresh", "class_thunder_road_1_1_spell_power_slow_time.html#a82cb203c8cd9a8f45b7c964c4685dea6", null ],
+    [ "OnCreatureKill", "class_thunder_road_1_1_spell_power_slow_time.html#aa50771e5b6cfc7c1a823adffbf64d24b", null ],
+    [ "OnCreatureParry", "class_thunder_road_1_1_spell_power_slow_time.html#aa14a81f7ecd2a6566aeabb2d22813f6f", null ],
+    [ "OnDeflect", "class_thunder_road_1_1_spell_power_slow_time.html#ae079897fc17a4f22b87ad80c4ccbb0ce", null ],
+    [ "Unload", "class_thunder_road_1_1_spell_power_slow_time.html#a092426de1499713623ec9bafe698d712", null ],
+    [ "Update", "class_thunder_road_1_1_spell_power_slow_time.html#ad1131879269375e2137eab892c5cab06", null ],
+    [ "Use", "class_thunder_road_1_1_spell_power_slow_time.html#ae0c11ac56829e1ca9b2232edb65a2741", null ],
+    [ "effectData", "class_thunder_road_1_1_spell_power_slow_time.html#ac5a90d3c8cc384650dd02dc360e24062", null ],
+    [ "effectId", "class_thunder_road_1_1_spell_power_slow_time.html#a3d4c1795ed6ae459fc27472cf4aa620f", null ],
+    [ "enterCurve", "class_thunder_road_1_1_spell_power_slow_time.html#ac2680e1cfd22300c9aa0db43feb9b9c4", null ],
+    [ "exitCurve", "class_thunder_road_1_1_spell_power_slow_time.html#a536952303db57d10a881e2103aa3066e", null ],
+    [ "focusConsumption", "class_thunder_road_1_1_spell_power_slow_time.html#a29c8f35256c1defb0dd40b22a39f2d25", null ],
+    [ "focusDepletedEffectId", "class_thunder_road_1_1_spell_power_slow_time.html#ab0a78efbc7fd21ce7caaec714fbe38e4", null ],
+    [ "focusDepletedEffetData", "class_thunder_road_1_1_spell_power_slow_time.html#a84940a1e87d69dc193527c6af967b370", null ],
+    [ "focusGainOnDeflect", "class_thunder_road_1_1_spell_power_slow_time.html#af3df305f0eb22d296d0263eaea657f84", null ],
+    [ "focusGainOnKill", "class_thunder_road_1_1_spell_power_slow_time.html#a335d8b3f5971a01a38c25a33cb480fc1", null ],
+    [ "focusGainOnParry", "class_thunder_road_1_1_spell_power_slow_time.html#a75ed6e08a8c3b01c452e0644151bae26", null ],
+    [ "focusMinToUse", "class_thunder_road_1_1_spell_power_slow_time.html#a36b6b8d66c79e17b5514e829453d3bd2", null ],
+    [ "scale", "class_thunder_road_1_1_spell_power_slow_time.html#a58e3123bbfac38960ca2ed31252ad2cb", null ],
+    [ "scaleToMixerParameter", "class_thunder_road_1_1_spell_power_slow_time.html#a42d0bd9080d14696a5549333132017e4", null ],
+    [ "scaleToMixerParameterName", "class_thunder_road_1_1_spell_power_slow_time.html#a86040b59d664072fe0dedc40c4e03c4a", null ],
+    [ "slowingTime", "class_thunder_road_1_1_spell_power_slow_time.html#a646563f76962e55ce0f9719fddcbc25d", null ]
+];

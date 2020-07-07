@@ -1,0 +1,18 @@
+digraph "ThunderRoad.ItemPhysic.OnCatalogRefresh"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.ItemPhysic.On\lCatalogRefresh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when [catalog refresh]."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.ItemPhysic.GenerateIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item_physic.html#aa2742191b81585e97bc8026f9c5ab65b",tooltip="Generates the icon."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.ObjectViewer.\lCreateIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_object_viewer.html#a5af9dfbea215e6f8ce99eb2fe4179fe4",tooltip="Creates the icon."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.ObjectViewer.\lAlignCamera",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_object_viewer.html#a330c2583d66810211d702aa7d2ae75e6",tooltip="Aligns the camera."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.ObjectViewer.\lCreateDummyObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_object_viewer.html#afae06c2ec2c8db7350617e48e6732f10",tooltip="Creates the dummy object."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.ItemModule.On\lItemDataRefresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item_module.html#a9c9043e88397fe89ee0525b180634bb0",tooltip="Called when [item data refresh]."];
+}

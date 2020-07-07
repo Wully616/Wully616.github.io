@@ -1,0 +1,19 @@
+digraph "ThunderRoad.LevelModuleXP.HistoryEvent"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ThunderRoad.LevelModuleXP.\lHistoryEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Class HistoryEvent."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" modifier\naction" ,fontname="Helvetica"];
+  Node2 [label="ThunderRoad.LevelModuleXP",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_level_module_x_p.html",tooltip="Class LevelModuleXP. Implements the ThunderRoad.LevelModule"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="LevelModule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_level_module.html",tooltip="Class LevelModule."];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" levelModuleWave" ,fontname="Helvetica"];
+  Node4 [label="ThunderRoad.LevelModuleWave",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_level_module_wave.html",tooltip="Class LevelModuleWave. Implements the ThunderRoad.LevelModule"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" availableSpawnPoints" ,fontname="Helvetica"];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" waveData" ,fontname="Helvetica"];
+  Node5 [label="ThunderRoad.WaveData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_wave_data.html",tooltip="Class WaveData. Implements the ThunderRoad.CatalogData"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="CatalogData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_catalog_data.html",tooltip="Class CatalogData."];
+}

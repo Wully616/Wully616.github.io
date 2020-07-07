@@ -1,0 +1,10 @@
+digraph "ThunderRoad.ObjectHolder.ObjectAllowed"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.ObjectHolder.\lObjectAllowed",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Objects the allowed."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.ObjectHolder.\lSlotAllowed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_object_holder.html#ac5325e3cad93a97c2d89f2625cbd89dc",tooltip="Slots the allowed."];
+}

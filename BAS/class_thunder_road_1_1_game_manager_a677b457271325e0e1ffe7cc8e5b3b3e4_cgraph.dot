@@ -1,0 +1,12 @@
+digraph "ThunderRoad.GameManager.ScreenshotCoroutine"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.GameManager.\lScreenshotCoroutine",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Screenshots the coroutine."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.DataManager.\lGetLocalScreenshotPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_data_manager.html#ae28a165d66890168a4a524ee77669667",tooltip="Gets the local screenshot path."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.DataManager.\lGetLocalMyGamesPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_data_manager.html#afcd74081b8ab8ed1db498162a4cdab56",tooltip="Gets the local my games path."];
+}

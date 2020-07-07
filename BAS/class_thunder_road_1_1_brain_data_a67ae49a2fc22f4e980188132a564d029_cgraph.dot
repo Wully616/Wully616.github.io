@@ -1,0 +1,12 @@
+digraph "ThunderRoad.BrainData.UpdateCycle"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.BrainData.Update\lCycle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Updates the cycle."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.BrainData.On\lUpdateCycle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_brain_data.html#afbee82f23c9970f51a5189491006d4f2",tooltip="Called when [update cycle]."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.BrainData.Update\lCloseFriends",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_brain_data.html#a0f2ec2590eb4bd071ab9c04426b00d0a",tooltip="Updates the close friends."];
+}

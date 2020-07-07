@@ -1,0 +1,10 @@
+digraph "ThunderRoad.WeaponRack.OnUnSnap"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.WeaponRack.On\lUnSnap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when [un snap]."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.ItemDefinition.\lSetSavedValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item_definition.html#a6178801c98c2d88b1d2d444f6ae58c0e",tooltip="Sets the saved value."];
+}

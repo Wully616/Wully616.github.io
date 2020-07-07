@@ -1,0 +1,14 @@
+digraph "ThunderRoad.Creature.OnMaterialChangeEvent"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Creature.OnMaterial\lChangeEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Called when [material change event]."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Paintable.Destroy\lPaintComponents",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_paintable.html#a9d7e095ae02ebf35fdfd7043db08cacd",tooltip="Destroys the paint components."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.Creature.Refresh\lShaderForDecals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_creature.html#a92025862a7ad44c7c1ae1eac71249d4f",tooltip="Refreshes the shader for decals."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.Creature.Set\lUpdateWhenOffscreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_creature.html#a5d2afee4466c232a3af2243182da6469",tooltip="Sets the update when offscreen."];
+}

@@ -1,0 +1,36 @@
+digraph "ThunderRoad.Options.ResetPostProcess"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Options.Reset\lPostProcess",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Resets the post process."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.Options.Apply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_options.html#a0d7a7ac9ce72af5733a0ff747bf0929d",tooltip="Applies this instance."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.Options.GetController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_options.html#a727e99603e17601d7a0fc1f762bd193c",tooltip="Gets the controller."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.Options.Reset\lControllers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_options.html#af99bb61db8b98b3a350f3e1df610635b",tooltip="Resets the controllers."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Mirror.Refresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_mirror.html#a39ff82894a3e360620bf669c09ea534f",tooltip="Refreshes this instance."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.Handle.Refresh\lJointDrive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle.html#a198ca29640ae1e41a39f0fcd9791c00a",tooltip="Refreshes the joint drive."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.HandleDefinition.\lGetNearestAxisPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle_definition.html#aaecf5668b0c379d67ae0f0dabc9eb8a2",tooltip="Gets the nearest axis position."];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ThunderRoad.Handle.IsHanded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle.html#ad64cb9ca1c1e26afc1606d729250516a",tooltip="Determines whether this instance is handed."];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ThunderRoad.Item.IsTwoHanded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_item.html#aa71f102491e167e0878f9617ec50f22e",tooltip="Determines whether [is two handed] [the specified valid handles]."];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ThunderRoad.Handle.SetJoint\lConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle.html#af877a8b9023994e0b6f3b42365749685",tooltip="Sets the joint configuration."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ThunderRoad.Morphology.Get\lArmCenterToFingerTipLenght",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_morphology.html#a4dc479d6cf56495d577fc193e2c99cae",tooltip="Gets the arm center to finger tip lenght."];
+  Node6 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ThunderRoad.Handle.SetJoint\lToTwoHanded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle.html#a50056543c9c56711ac6bb1b347ec973f",tooltip="Sets the joint to two handed."];
+  Node12 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ThunderRoad.PostProcessManager.\lRefreshPostProcess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_post_process_manager.html#a1a53a29e9c9b579cc65c40713afebd56",tooltip="Refreshes the post process."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ThunderRoad.Options.SetQuality\lPreset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_options.html#a48e50889fa16c5ed669188c34dbc31f4",tooltip="Sets the quality preset."];
+}

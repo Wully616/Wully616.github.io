@@ -1,0 +1,20 @@
+digraph "ThunderRoad.Body.Init"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.Body.Init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initializes this instance."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.BodyFoot.Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body_foot.html#a2b2b2f3030e7870025757ffcf265b094",tooltip="Initializes this instance."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.BodyHand.Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body_hand.html#ad4f8b383d3a78e5a8ef7ce9c5174a5ea",tooltip="Initializes this instance."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.BodyHand.Get\lLocalRotation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body_hand.html#a6c9b30f266324cb6595069d708cf836a",tooltip="Gets the local rotation."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.Body.Refresh\lMorphology",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body.html#a748abb1ed963bf8646177b271d0e29ef",tooltip="Refreshes the morphology."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.BodyFoot.Get\lCurrentLegDistance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_body_foot.html#a178e6730dfb7dca7ae16c719e50ba866",tooltip="Gets the current leg distance."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.Locomotion.Set\lCapsuleCollider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_locomotion.html#a15ff1202536b7fe2aff9e892b223594c",tooltip="Sets the capsule collider."];
+}

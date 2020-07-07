@@ -1,0 +1,21 @@
+digraph "ThunderRoad.MenuModuleScores.Init"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.MenuModuleScores.Init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initializes the specified menu data."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ThunderRoad.MenuDefinition.\lGetCustomReference",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_definition.html#a28e7ebeff3af65a30e59a96995d13efc",tooltip="Gets the custom reference."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ThunderRoad.MenuModuleScores.\lOnHistoryCloseClick",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_module_scores.html#ad38055fb5ddb850591142b6685559312",tooltip="Called when [history close click]."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ThunderRoad.MenuModuleScores.\lRefreshPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_menu_module_scores.html#aa870de8ae60c50ad896b4799b76571cf",tooltip="Refreshes the page."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThunderRoad.UITextScores.\lRefresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_u_i_text_scores.html#ab79475e78619cabdcc28319cb67c8e6c",tooltip="Refreshes this instance."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThunderRoad.LevelModuleXP.\lGetScore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_level_module_x_p.html#ac91e8f70d4d2074f883ded46ddf33a07",tooltip="Gets the score."];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ThunderRoad.GameManager.\lTryGetTranslation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_game_manager.html#a0c20ba391a6ecdcd925df6ed831e8b15",tooltip="Tries the get translation."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

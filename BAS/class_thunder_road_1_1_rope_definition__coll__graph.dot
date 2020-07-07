@@ -1,0 +1,44 @@
+digraph "ThunderRoad.RopeDefinition"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThunderRoad.RopeDefinition",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Class RopeDefinition. Implements the ThunderRoad.HandleDefinition"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="HandleDefinition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle_definition.html",tooltip="Class HandleDefinition. Implements the ThunderRoad.InteractableDefinition"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="InteractableDefinition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_interactable_definition.html",tooltip="Class InteractableDefinition. Implements the UnityEngine.MonoBehaviour"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MonoBehaviour",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" orientationDefaultLeft\norientationDefaultRight" ,fontname="Helvetica"];
+  Node5 [label="ThunderRoad.HandleOrientation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle_orientation.html",tooltip="Class HandleOrientation. Implements the UnityEngine.MonoBehaviour"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" handleDefinition" ,fontname="Helvetica"];
+  Node6 [label="ThunderRoad.HandleDefinition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_handle_definition.html",tooltip="Class HandleDefinition. Implements the ThunderRoad.InteractableDefinition"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" orientationDefaultLeft\norientationDefaultRight" ,fontname="Helvetica"];
+  Node6 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" releaseHandle\nslideToUpHandle\nslideToBottomHandle" ,fontname="Helvetica"];
+  Node6 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" releaseHandle\nslideToUpHandle\nslideToBottomHandle" ,fontname="Helvetica"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" interactable" ,fontname="Helvetica"];
+  Node7 [label="ThunderRoad.Interactable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_interactable.html",tooltip="Class Interactable. Implements the UnityEngine.MonoBehaviour"];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" highlighter" ,fontname="Helvetica"];
+  Node8 [label="ThunderRoad.Highlighter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_highlighter.html",tooltip="Class Highlighter. Implements the UnityEngine.MonoBehaviour"];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" faceCam" ,fontname="Helvetica"];
+  Node9 [label="ThunderRoad.FaceCam",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_face_cam.html",tooltip="Class FaceCam. Implements the UnityEngine.MonoBehaviour"];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" titleText\ndesignationText" ,fontname="Helvetica"];
+  Node10 [label="Text",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" currentState" ,fontname="Helvetica"];
+  Node11 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node11 [label="ThunderRoad.InteractableData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_interactable_data.html",tooltip="Class InteractableData. Implements the ThunderRoad.CatalogData"];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="CatalogData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_catalog_data.html",tooltip="Class CatalogData."];
+  Node8 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" highlighterPrefab" ,fontname="Helvetica"];
+  Node11 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" highlighterView" ,fontname="Helvetica"];
+  Node13 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" definition" ,fontname="Helvetica"];
+  Node13 [label="ThunderRoad.Interactable\lDefinition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thunder_road_1_1_interactable_definition.html",tooltip="Class InteractableDefinition. Implements the UnityEngine.MonoBehaviour"];
+  Node4 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
